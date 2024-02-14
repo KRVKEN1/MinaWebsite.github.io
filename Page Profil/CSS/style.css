@@ -1,0 +1,33 @@
+@import url(Components/banner.css);
+@import url(Components/avatar.css);
+@import url(Components/button.css);
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: blue; 
+  }
+ 
+  
+  
+  .profile-image {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    border: 2px solid blue;
+    display: inline-block;
+    margin: 30px;
+    object-fit:fill
+  }
+  
+  
+  .highlight:hover {
+    background-color: #c9302c; 
+  }
+ 
+  
+
+ 

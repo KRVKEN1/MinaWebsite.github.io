@@ -1,0 +1,46 @@
+.banner {
+    display: flex;
+    box-align: center;
+    background-color: blue;
+    margin: auto; 
+    padding: auto;
+    size-adjust: 80%;
+    justify-content: center;
+}
+
+.bloc-compétences{
+    border: 2px blue solid;
+    border-radius: 10px;
+    width: 230px; height: 220px;
+    margin: 50px; padding: 20px;
+    text-align: left;
+    display: flow-root;
+    justify-content: center;
+}
+
+.texte-container {
+    border: 2px blue solid;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 40px;
+    max-width: 900px;
+    background-color: #fff;
+    display: flow-root;
+    justify-content: center;
+}
+  
+.texte-container p2 {
+    color:blue; 
+    padding: 5px 0;
+}
+
+.all {
+    display: flex;
+    justify-content: center;
+}
+
+.carré {
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+}

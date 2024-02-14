@@ -1,0 +1,114 @@
+.container {
+    height: 500px;
+    width: 70%;
+    color: rgb(255, 255, 255);
+    border: 4px blue solid;
+    display: flex;
+    
+}
+
+.banner {
+    background-image: url("../../images/picture");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    flex-direction: color;
+    justify-content: space-between;
+    align-items: flex-end;
+    border: 4px blue;
+}
+
+.first-container { 
+    border: 1px solid #aaa; 
+    border-radius: 10px; 
+    padding: 20px;
+    margin: 20px auto; 
+    max-width: 800px; 
+    background-color: #fff; 
+  }
+  .header {
+    font-size: 2em;
+    color: #333;
+  }
+
+  .second-container {
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .second-container h2 {
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  .second-container ul {
+    color: #000000;
+    list-style-type: none;
+  }
+
+  .third-container {
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .third-container h2 {
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  .third-container p {
+    color: #000000;
+  }
+
+  .fourth-container {
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #ffffff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: rgb(0, 0, 0); 
+  }
+  
+  .fourth-container h2 {
+    color: rgb(0, 0, 0); 
+  }
+  
+  .fourth-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .fourth-container li {
+    color: rgb(0, 0, 0); 
+    padding: 5px 0;
+  }
+  
+  .social-container {
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    text-align: center; 
+  }
+  
+  .social-container h3 {
+    font-size: 2em;
+    color: #000000;
+    margin-bottom: 10px; 
+  }
+
